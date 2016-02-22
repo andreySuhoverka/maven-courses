@@ -1,0 +1,789 @@
+
+/* ---------------------start general styles-------------------- */
+
+body {
+    background-color: #F9FAF7;
+    font-family:sans-serif;
+}
+
+a {
+    color:#276056;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ---------------------end general styles-------------------- */
+
+/* ---------------------start main content-------------------- */
+
+.mainContent {
+    width: 900px;
+    margin: 50px auto 0px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.247059) 0px 1px 2px 1px;
+    padding-bottom: 100px;
+}
+.mainContent #not-found {
+    text-align: center;
+    color: #0367b0;
+}
+
+/* ---------------------end main content-------------------- */
+
+/* ---------------------start header-------------------- */
+
+header {
+    width: 900px;
+    margin:auto;
+    overflow: hidden;
+    border-bottom:1px solid #ccc;
+    border-radius: 5px;
+}
+header ul li {
+    display: inline;
+    margin-left: 5px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+header nav {
+    text-align: right;
+    margin-top:28px;
+    padding-right: 20px;;
+}
+header h1 {
+    float:left;
+    margin-top:15px;
+    margin-left:30px;
+}
+
+/* ---------------------end header-------------------- */
+
+
+/* ---------------------start Sub header-------------------- */
+.subHeader {
+    width: 680px;
+    margin: auto;
+    overflow: hidden;
+}
+.subHeader nav {
+    text-align: right;
+}
+.subHeader ul li {
+    display: inline;
+    margin-left: 5px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.subHeader ul li a{
+    color: #0367b0;
+}
+
+/* ---------------------end Sub header-------------------- */
+
+/* ---------------------start registration-sign up-------------------- */
+
+.registration {
+    margin:100px auto 0px;
+    width:745px;
+    border-top: 1px solid #ccc;
+    padding-left: 35px;
+
+}
+
+
+
+.registration-container {
+    float: left;
+    width:350px;
+    margin-top:20px;
+    margin-left:30px;
+    position: relative;
+
+}
+.registration-container h2 {
+    position: absolute;
+    left: -65px;
+    top:-108px;
+    color:#333333;
+    font-size: 31px;
+    line-height: 44px;
+    font-weight: normal;
+    font-family: sofiapro-light;
+    text-rendering:optimizelegibility;
+}
+
+.registration-container .form-fow{
+    margin-top:21px;
+}
+.form-fow:first-child {
+    margin-top:0;
+}
+
+.incorrect-login-or-pass {
+    color:red;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="password"]{
+    width:200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    transition: box-shadow .2s ease-in-out;
+}
+.registration-container label {
+    width:80px;
+    float:left;
+    text-align: right;
+    margin:7px 22px 0 0;
+}
+
+
+.registration-container input[type="text"]:hover,
+.registration-container input[type="password"]:hover{
+    box-shadow: 0 0 3px rgba(116, 185, 239, .5);
+    transition: box-shadow .2s ease-in-out;
+}
+
+.registration-container input[type="text"]:focus,
+.registration-container input[type="password"]:focus{
+    box-shadow: 0 0 3px rgba(116, 185, 239, 1);
+    border-color: #74b9ef;
+}
+.registration-container .check {
+    margin-top:21px;
+    margin-left:100px;
+    width:200px;
+    overflow: hidden;
+}
+.registration-container .check input[type="checkbox"] {
+    float:left;
+}
+.registration-container .check label {
+    width:120px;
+    text-align: left;
+    margin:0 0 0 10px;
+}
+.registration-container .submitButton {
+    color:#fff;
+    background-color:#347a34;
+    padding:4px;
+    border-radius: 5px;
+    margin-left: 100px;
+    cursor:pointer;
+    border:1px solid #2f6e2f;
+}
+
+.signInContainer {
+    width: 249px;
+    height: 300px;
+    border-left: 1px solid #ccc;
+    float:right;
+
+}
+.signInContainer span{
+    line-height: 21px;
+    font-size: 18px;
+    color:#333333;
+}
+.signInContainer p{
+    margin:25px 0 0 58px;
+}
+.signInContainer a{
+    color:#0367B0;
+}
+/* #EDFFFE */
+
+/* ---------------------end registration-------------------- */
+
+/* ---------------------start registration-log in-------------------- */
+
+
+.registration-login {
+    margin:100px auto 0px;
+    width:780px;
+    border-top: 1px solid #ccc;
+}
+
+
+
+.registration-container-login {
+    float: left;
+    width:350px;
+    margin-top:15px;
+    position: relative;
+
+}
+.registration-container-login h2 {
+    position: absolute;
+    top:-103px;
+    color:#333333;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: normal;
+    font-family: sofiapro-light;
+}
+
+.registration-container-login .form-fow{
+    margin-top:21px;
+}
+.form-fow:first-child {
+    margin-top:0;
+}
+
+.incorrect-login-or-pass {
+    color:red;
+}
+
+.registration-container-login input[type="text"],
+.registration-container-login input[type="password"]{
+    width:200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    transition: box-shadow .2s ease-in-out;
+    font-family: "Helvetica Neue",Helvetica;
+}
+.registration-container-login label {
+    width:80px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.registration-container-login input[type="text"]:hover,
+.registration-container-login input[type="password"]:hover{
+    box-shadow: 0 0 3px rgba(116, 185, 239, .5);
+    transition: box-shadow .2s ease-in-out;
+}
+
+.registration-container-login input[type="text"]:focus,
+.registration-container-login input[type="password"]:focus{
+    box-shadow: 0 0 3px rgba(116, 185, 239, 1);
+    border-color: #74b9ef;
+}
+.registration-container-login .check {
+    margin-top:21px;
+    margin-left:100px;
+    width:200px;
+    overflow: hidden;
+}
+.registration-container-login .check input[type="checkbox"] {
+    float:left;
+}
+.registration-container-login .check label {
+    width:120px;
+    text-align: left;
+    margin:0 0 0 10px;
+}
+.registration-container-login .submitButton {
+    color:#fff;
+    background-color:#347a34;
+    padding:4px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-left:-2px;
+    border:1px solid #2f6e2f;
+}
+
+.registration-container-login .submitButton:active {
+    border:1px solid #347a34;
+}
+
+.signInContainer-login {
+    width: 370px;
+    height: 205px;
+    border-left: 1px solid #ccc;
+    float:right;
+
+}
+.signInContainer-login span{
+    line-height: 21px;
+    font-size: 18px;
+    color:#333333;
+}
+.signInContainer-login p{
+    margin:50px 0 0 34px;
+}
+.signInContainer-login a{
+    color:#0367B0;
+}
+
+
+/* ---------------------start registration-log in-------------------- */
+
+
+/* ---------------------start course wrap-------------------- */
+
+.courseWrap {
+    width: 680px;
+    margin: 35px auto 0px;
+    padding-top:20px;
+    font-family:sans-serif;
+    border-top: 1px solid #ccc;
+
+    /* outline: 1px solid green; */
+}
+
+div.courseWrap:first-child {
+    margin-top:10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+article img {
+    width: 240px;
+    height: 135px;
+    float: left;
+    margin-right: 18px;
+}
+
+article h2 {
+    margin: 0px;
+}
+
+article .continue {
+    font-size: 14px;
+    float: left;
+    margin-top:8px;
+}
+
+article .preview {
+    float: right;
+    width: 420px;
+}
+
+/* for course description -- now deleted */
+article .preview .body {
+    clear: both;
+    color: #575757;
+    font-size: 14px;
+}
+
+article .preview h2 {
+    /* font-size:39px;
+    line-height: 43px;
+    letter-spacing: -1px; */
+    /* color:#333333; */
+    color: #0367b0;
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: bold;
+    font-family: sofiapro-light;
+
+}
+
+
+article .meta {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+article .meta a, .post_info a {
+    font-style: italic;
+    font-size: 14px;
+}
+
+article .meta li {
+    display: inline;
+}
+
+article .meta li:after {
+    /*content: ' \\';*/
+    content: ' \\';
+    padding: 0 1px;
+    color: #999;
+
+}
+
+article .meta li:last-child:after {
+    content: none;
+}
+
+article .post_info {
+    background: #f3f3f3;
+    color: #999;
+    padding: 3px;
+    font-size: 14px;
+    display: inline;
+}
+
+article .post_info a {
+    color: #999;
+    text-decoration: none;
+}
+
+article .post_info a:hover {
+    color: black;
+}
+.time-line {
+    background-color: #a4a4a4;
+    box-shadow: inset 0 1px 0 #ccc;
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top:12px;
+}
+
+.start-end-time {
+    width: 100%;
+    height: 11px;
+    color:#333;
+    font-family:sofiapro-light;
+}
+
+.start-end-time .start-time {
+    float: left;
+}
+
+.start-end-time .end-time {
+    float: right;
+}
+
+.info-unEnroll {
+    width:420px;
+    margin-top:16px;
+    overflow: hidden;
+}
+
+
+article .continue:nth-child(2):before {
+    content: '|';
+    margin-left: 4px;
+    margin-right: 4px;
+}
+/*todo: do so that slash was not react on hover*/
+/*article .continue:nth-child(2):before:hover {
+    color:#276056 ;
+}*/
+
+article .continue:nth-child(2):after {
+    content: '';
+}
+
+.enroll-btn:hover {
+    color: #fff;
+    background-color: #347934;
+    border-color: #2f6e2f;
+}
+.enroll-btn {
+    float: right;
+    color: #fff;
+    background-color: #388438;
+    border-color: #357d35;
+    text-decoration: none;
+    font-family: "sofiapro-light",Arial,sans-serif;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+}
+
+.main-page .enroll-btn {
+    display: none;
+}
+
+.allCoursesPage .unEnroll {
+    display: none;
+}
+
+
+
+/* ---------------------end course wrap-------------------- */
+
+/* ---------------------start info-content-------------------- */
+
+.info-content {
+    padding: 30px 30px 30px 55px;
+    overflow: hidden;
+}
+
+
+
+
+.info-content-head {
+    height: 143px;
+    overflow: hidden;
+}
+.info-content-head h1 {
+    float: left;
+}
+.info-content-head img {
+    float: right;
+    width: 240px;
+    height: 135px;
+}
+.info-content .centerContent {
+    width:510px;
+    float: left;
+}
+.info-content table {
+    margin-top:32px;
+    width: 420px;
+    border-top:2px solid black;
+    border-collapse:collapse;
+
+}
+.info-content table thead tr {
+    text-align: left;
+    line-height: 26px;
+
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.info-content table td:first-child {
+     width:243px;
+     border-right: 1px solid #ccc;
+ }
+
+.info-content table td:last-child {
+    width: 176px;
+}
+
+.info-content table tbody tr {
+    text-align: left;
+    line-height: 22px;
+
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+
+}
+.info-content table td {
+    padding-left: 5px;
+}
+
+.full-info {
+    width:240px;
+    height: 150px;
+    margin-top:30px;
+}
+
+.info-content-head-left  {
+    margin-bottom: 16px;
+    font-family: sofiapro-light;
+    margin-top:0px;
+    overflow: hidden;
+    width: 250px;
+    float: left;
+}
+.full-time span {
+    color:#0367b0;
+
+}
+.info-content-head h1 {
+    margin-top:40px;
+    margin-bottom: 8px;
+}
+.full-info h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+
+}
+.full-time {
+    float: left;
+    color: #555;
+    font-size: 15px;
+    font-family: Helvetica;
+}
+.instractor-photo {
+    width: 70px;
+    height:70px;
+    float: left;
+    border: 1px solid #FCFBFA;
+
+}
+.instractor-name {
+    font-weight: bold;
+    font-size: 14px;
+    color:#0367b0;
+    margin-left:17px;
+}
+
+.students-list {
+    width:240px;
+    overflow: hidden;
+}
+.students-list ol {
+    padding-left:22px;
+}
+.students-list p:first-child {
+    margin-top: 1em;
+}
+.students-list li {
+    color:#2976D6;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin:0 0 4px 0;
+}
+
+.students-list h2 {
+    font-size: 19px;
+    margin-top:5px;
+    margin-bottom:7px;
+    color:black;
+    float:left;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+.show-students-btn {
+    width: 116px;
+    float:right;
+    color: #fff;
+    background-color: #388438;
+    border-color: #357d35;
+    text-decoration: none;
+    font-family: "sofiapro-light",Arial,sans-serif;
+    display: inline-block;
+    padding: 4px 0px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor:pointer;
+}
+
+.show-students-btn:hover {
+    color: #fff;
+    background-color: #347934;
+    border-color: #2f6e2f;
+}
+
+.show-students-marks-btn {
+    color: #fff;
+    background-color:#388438;
+    border-color: #357d35;
+    width:180px;
+    float:left;
+    display: inline-block;
+    padding: 4px 0px;
+    margin-bottom: 0;
+    margin-top:5px;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+    /* vertical-align: middle;
+    background-image: none; */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+
+}
+.show-students-marks-btn:hover {
+    color:#fff;
+    background-color: #347934;
+    border-color: #2f6e2f;
+
+}
+
+.sidebar-right {
+    float: right;
+}
+
+.sidebar-right img {
+    width: 70px;
+    height: 70px;
+}
+
+#stud-enum {
+    display: none;
+}
+#stud-enum li {
+    cursor: pointer;
+}
+.stud-enum-assign-div {
+    display: none;
+}
+
+.assign-mark-btn {
+    color: #fff;
+    background-color:#99A399;
+    border-color: #357d35;
+    width:80px;
+    float:right;
+    display: inline-block;
+    padding: 4px 0px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+    /* vertical-align: middle;
+    background-image: none; */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+}
+.assign-mark-btn:hover {
+    color:#fff;
+    background-color: #848884;
+    cursor: pointer;
+}
+.students-list input[type="text"] {
+    width: 20px;
+    margin-left: 19px;
+    margin-top: -1px;
+}
+.students-list span {
+    font-size: 14px;
+    line-height: 10px;
+
+}
+
+.stud-enum-assign-div {
+    margin:7px 0 4px 0;
+}
+
+.stud-enum-assign-div form {
+    display: inline;
+    margin:0px;
+}
+
+/* ---------------------end info-content-------------------- */
+
+/* ---------------------start footer-------------------- */
+
+
+footer {
+    width:900px;
+    margin:auto;
+    text-align: center;
+    background-color: #F9FAF7;
+
+}
+
+/* ---------------------end footer-------------------- */

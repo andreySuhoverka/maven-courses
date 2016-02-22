@@ -1,0 +1,25 @@
+<?xml version = '1.0'?>
+<panorama>
+
+	<parameters>
+
+		layer_1 = ../bower_components/panorama/fps.swf
+		layer_3 = ../bower_components/panorama/limits.swf
+		layer_6 = ../bower_components/panorama/cylConverter.swf
+		layer_7 = ../bower_components/panorama/movDecoder.swf
+		layer_8 = ../bower_components/panorama/menuFullscreen.swf
+
+		panoType = mov
+
+		loaderStreamed = 1
+		loaderAttempts = 1
+		loaderConsecutive = 1
+		<movDecoder>
+			disableStreamedImages = 1
+		</movDecoder>
+
+	</parameters>
+
+</panorama>
+
+   

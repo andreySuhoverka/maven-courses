@@ -1,0 +1,25 @@
+<?xml version = '1.0'?>
+<panorama>
+
+	<parameters>
+	panoType=cylinder
+
+	loaderStreamed = 1
+	loaderBandwidth = 100
+
+	layer_10 = ../bower_components/panorama/glassMeter.swf
+	layer_3  = ../bower_components/panorama/limits.swf
+	layer_4  = ../bower_components/panorama/autorotator.swf
+	layer_5  = ../bower_components/panorama/cylConverter.swf
+	layer_8  = ../bower_components/panorama/menuFullscreen.swf
+
+	</parameters>
+
+	<cylconverter>
+	autoLimits=1
+	strictBorders=0
+	hfov = 180
+	vfov = 60
+	</cylconverter>
+
+</panorama>

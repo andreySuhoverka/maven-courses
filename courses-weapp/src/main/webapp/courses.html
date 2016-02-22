@@ -1,0 +1,39 @@
+<bsu:subHeader/>
+<div ng-include="'subHeader.html'"></div>
+<div class="main-page">
+    <div class="currentBlock">
+        <c:forEach var="courseItem" items="${sessionScope.currentCourses}">
+            <bsu:course
+                    courseId="${courseItem.id}"
+                    courseTitle="${courseItem.title}"
+                    authorPictureUrl="${courseItem.pictureUrl}"
+                    courseAuthorLogin="${courseItem.courseAuthorLogin}"
+                    startTime="${courseItem.startTime}"
+                    endTime="${courseItem.endTime}"/>
+        </c:forEach>
+    </div>
+
+
+    <div class="pastBlock">
+        <c:forEach var="courseItem" items="${sessionScope.pastCourses}">
+            <bsu:course
+                    courseId="${courseItem.id}"
+                    courseTitle="${courseItem.title}"
+                    authorPictureUrl="${courseItem.pictureUrl}"
+                    courseAuthorLogin="${courseItem.courseAuthorLogin}"
+                    startTime="${courseItem.startTime}"
+                    endTime="${courseItem.endTime}"/>
+        </c:forEach>
+    </div>
+    <div class="upcomingBlock">
+        <c:forEach var="courseItem" items="${sessionScope.upcomingCourses}">
+            <bsu:course
+                    courseId="${courseItem.id}"
+                    courseTitle="${courseItem.title}"
+                    authorPictureUrl="${courseItem.pictureUrl}"
+                    courseAuthorLogin="${courseItem.courseAuthorLogin}"
+                    startTime="${courseItem.startTime}"
+                    endTime="${courseItem.endTime}"/>
+        </c:forEach>
+    </div>
+</div>
